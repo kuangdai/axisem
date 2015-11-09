@@ -2053,6 +2053,7 @@ subroutine compute_dipole_stiff_terms(ielem,jpol,local_crd_nodes, &
      M_8(0,jpol,ielem) = zero
 
      M_w1(0,jpol,ielem) = zero
+     M_w2(0,jpol,ielem) = zero
      M_w3(0,jpol,ielem) = zero
 
   endif
